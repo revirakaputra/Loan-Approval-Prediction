@@ -2,8 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as stc
 import pickle
 
-with open('Logistic_Regression_model.pkl', 'rb') as file:
-    Logistic_Regression_model = pickle.load(file)
+with open('Logistic_Regression_Model.pkl', 'rb') as file:
+    Logistic_Regression_Model = pickle.load(file)
 
 html_temp = """<div style="background-color:#000;padding:10px;border-radius:10px">
                 <h1 style="color:#fff;text-align:center">Loan Eligibility Prediction App</h1>
